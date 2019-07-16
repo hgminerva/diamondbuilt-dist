@@ -63,7 +63,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
-    { path: '', loadChildren: './landingpage/landingpage.module#LandingpageModule' }
+    { path: '', loadChildren: './landingpage/landingpage.module#LandingpageModule' },
+    { path: '*', loadChildren: './landingpage/landingpage.module#LandingpageModule' }
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
@@ -159,7 +160,7 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__["BrowserModule"],
             _angular_router__WEBPACK_IMPORTED_MODULE_5__["RouterModule"].forRoot([]),
-            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_6__["BrowserAnimationsModule"],
+            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_6__["BrowserAnimationsModule"]
         ],
         providers: [],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]]
