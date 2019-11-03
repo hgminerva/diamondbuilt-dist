@@ -42,7 +42,7 @@ module.exports = webpackAsyncContext;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n\n<router-outlet></router-outlet>\n"
+module.exports = "\r\n\r\n<router-outlet></router-outlet>\r\n"
 
 /***/ }),
 
@@ -239,7 +239,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Project-ore\DIAMONDBUILT\landingpage-daimonbuilt\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! D:\Github_Repo\daimonbuilt-landingpage\src\main.ts */"./src/main.ts");
 
 
 /***/ })
